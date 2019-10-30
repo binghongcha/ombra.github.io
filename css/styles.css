@@ -1,0 +1,573 @@
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+
+}
+
+input {
+ border: 1px solid #d9d9d9;
+border-radius: 5px !important;
+height: 46px;
+width: 100%;
+margin-top: 20px;
+ text-indent: 10px;
+ font-family: 'Libre Baskerville';
+ font-size: 14px;
+
+}
+
+.button {
+border: 2px solid #F2615E;
+background-color: #fff;
+color: #d95754;
+
+width: 50%;
+
+}
+#mc-embedded-subscribe {
+
+width: 175px;
+
+}
+
+#mc_embed_signup {
+
+text-align: left;
+
+}
+#resyButton-5q0efxrh {
+
+color: black;
+
+}
+
+.contact-section p{
+
+font-size: 20px;
+padding-top: 10px;
+
+}
+
+.contact-section {
+    background: #fff !important;
+}
+
+
+.carousel-control:focus, .carousel-control:hover {
+background-image: none !important;
+  opacity: 1;
+}
+
+.extraspazio {
+
+margin-top: 90px;
+
+}
+
+.carousel_backrgound{
+background-color: #FAD475;
+}
+
+.carousel-control {
+
+    color: #fff;
+
+    text-shadow: none;
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=100);
+    opacity: 1;
+    background-image: none !important;
+}
+
+body {
+
+position: relative;
+font-size: 12px;
+
+}
+
+
+h3 {
+
+color: #fff;
+text-align: center;
+font-size: 23px;
+font-family: 'Libre Baskerville';
+font-weight: 400;
+padding-top: 20px;
+line-height: 1.40;
+
+}
+
+.chiusura {
+background-color: #F2615E;
+margin-bottom: 0px;
+height: 50px;
+padding-top: 15px;
+text-align: center;
+color: #fff;
+text-transform: uppercase;
+font-size: 14px;
+font-family: 'Work Sans';
+}
+
+.menulink  a {
+      color: white;
+       position: relative;
+       text-decoration: none;
+  }
+.menulink a:before {
+  content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    -ms-transform: left; /* IE 9 */
+  -ms-transform-origin: left; /* IE 9 */
+  -webkit-transform: left; /* Chrome, Safari, Opera */
+  -webkit-transform-origin: left; /* Chrome, Safari, Opera */
+  transform: left;
+  transform-origin: left;
+  }
+
+  .menulink a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  .menulink  a:visited {
+      color: white;
+  }
+
+.menulink   a:hover {
+      color: white;
+  }
+.menulink   a:active {
+      color: white;
+      opacity: 0.6;
+  }
+
+
+  .contactlink  a {
+
+        color: #d95754;
+         position: relative;
+         text-decoration: none;
+    }
+  .contactlink a:before {
+    content: "";
+      position: absolute;
+      width: 100%;
+      height: 10px;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(242, 97, 94, 0.2);
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+      -ms-transform: left; /* IE 9 */
+    -ms-transform-origin: left; /* IE 9 */
+    -webkit-transform: left; /* Chrome, Safari, Opera */
+    -webkit-transform-origin: left; /* Chrome, Safari, Opera */
+    transform: left;
+    transform-origin: left;
+    }
+
+    .contactlink a:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+
+    .contactlink  a:visited {
+        color: #d95754;
+    }
+
+  .contactlink   a:hover {
+        color: #d95754;
+    }
+  .contactlink   a:active {
+        color: #d95754;
+        opacity: 0.6;
+    }
+
+.navbar-nav>li>a {
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'Stardos Stencil';
+    letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #CECECE;
+  font-family: 'Libre Baskerville';
+  }
+
+.navbar-default .navbar-nav>li>a:hover {
+color: #e1be69;
+}
+
+.icone{
+  float: left;
+  margin-right: 20px;
+  margin-top:15px;
+}
+
+/*
+ .navbar-default .navbar-nav>.active>a:hover {
+color: #fff}
+*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0);
+     border-bottom: solid #e1be69;
+}
+
+.selector-for-some-widget {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.container-fluid {
+
+padding-right: 0px;
+padding-left: 0px;
+
+}
+.iframe-area{
+  background-color: #3c3c3c;
+  margin-right: 0px;
+}
+
+.nopadding {
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0px;
+padding-right: 0px;
+
+}
+
+.menupadding{
+padding-bottom: 130px;
+
+}
+
+
+
+.fixheight {
+
+min-height: 600px;
+
+}
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.logo {
+width: 120px;
+-webkit-transition:  .5s ease-in-out,padding .5s ease-in-out;
+-moz-transition:  .5s ease-in-out,padding .5s ease-in-out;
+transition:  .5s ease-in-out,padding .5s ease-in-out;
+z-index: 300;
+
+}
+
+.testata {
+
+padding-left: 0px;
+padding-right: 0px;
+
+}
+
+.prova {
+position: fixed;
+z-index: -1;
+background-image: url("http://giuliofagiolini.com/ombra/resources/backprova.png");
+background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+background-color: #000;
+padding-bottom: 800px;
+}
+
+.intro-section{
+  background-color: rgba(255, 255, 255, 0.0);
+}
+
+.about-section {
+z-index: 100;
+padding-top: 100px;
+
+}
+
+.about-section h2{
+color: #F2615E;
+}
+.contact-section h2{
+color: #d95754;
+}
+
+
+.menu-section {
+z-index: 100;
+padding-top: 100px;
+background-color: #F2615E;
+}
+
+.menu-section h2{
+color: #fff;
+}
+
+
+
+  h1 {
+    font-family: 'Stardos Stencil','Libre Franklin', serif;
+    font-weight: 400;
+  font-size: 100px;
+  padding-top: 17%;
+  text-align: center;
+  color: #fff;
+  letter-spacing: -2px;
+  }
+
+  h2 {
+    font-family: 'Stardos Stencil','Libre Franklin';
+text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0px;
+    text-align: left;
+  }
+
+p {
+  font-family: 'Libre Baskerville';
+padding-top: 30px;
+font-size: 29px;
+line-height: 1.6;
+  text-align: left;
+
+}
+
+i {
+font-family: 'Libre Baskerville';
+font-style: italic;
+
+}
+
+.grande {
+font-size: 26px;
+}
+
+.medio {
+font-size: 20px;
+
+}
+
+.contact-section {
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+  .contact-section p{
+
+  font-size: 16px;
+  padding-top: 10px;
+
+  }
+
+  .menu-section {
+  padding-top: 40px;
+
+  }
+
+  .chiusura {
+  background-color: #F2615E;
+  margin-bottom: 0px;
+  height: 50px;
+  padding-top: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Work Sans';
+  text-align: center;
+  }
+
+
+  .about-section {
+  padding-top: 40px;
+
+  }
+  h3 {
+  font-size: 15px;
+
+  }
+
+
+
+  .navbar-nav>li>a {
+      padding-bottom: 1px;
+      padding-left: 6px;
+      padding-right: 6px;
+      font-family: 'Libre Baskerville';
+      letter-spacing: 1px;
+
+  }
+
+  body {
+
+  font-size: 10px;
+}
+  .navbar-default .navbar-nav>li>a:hover {
+  color: #3c3c3c;
+  }
+
+  .intro-section{
+      height: 90%;
+}
+  .prova {
+  background-image: url("http://giuliofagiolini.com/ombra/resources/backprova2.png");
+  background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center top;
+}
+  .navbar-brand>img {
+    margin-left: 40px;
+}
+  .navbar-default .navbar-toggle {
+      border-color: rgba(255, 255, 255, 0.0);
+  }
+
+  .navbar-toggle {
+      padding: 9px 0px;
+      margin-right: 20px;
+  }
+
+.navbar-default {
+
+  margin-left: 0px !important;
+  margin-right:10px;
+
+}
+
+  .navbar-default .navbar-toggle {
+ border: none;
+ margin-top: 20px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+   background-color: rgba(255, 255, 255, 0.0);
+}
+
+ .onlybig {
+
+display: none;
+
+}
+
+  p {
+    font-family: 'Libre Baskerville';
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+    text-align: left;
+    padding-left: 0px;
+        padding-right: 0px;
+
+  }
+     h1 {
+     font-family: 'Stardos Stencil','Libre Franklin', sans-serif;
+     font-size: 50px;
+     padding-top: 90px;
+     letter-spacing: -1px;
+     }
+
+     .navbar-brand {
+         margin: -40px -70px !important;
+
+   }
+
+   .extraspazio {
+
+   margin-top: 50px;
+
+   }
+
+
+   .navbar-nav>li>a {
+       line-height: 20px;
+   }
+
+   .nav>li>a {
+       display: initial;
+       float: left;
+       text-align: right;
+     }
+
+.nav {
+    width: 178px;
+    float: right;
+
+
+}
+.icone{
+  float: left;
+}
+
+.grande {
+font-size: 20px;
+text-decoration: underline;
+}
+
+.menupadding{
+padding-bottom: 85px;
+
+}
+
+.contactlink  a {
+  font-size: 16px;
+}
+
+#carousel-example {
+
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  padding-top: 60px;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  border: none;
+  background: rgba(255, 255, 255, 1);
+  text-align: center;
+  z-index: -1;
+}
+
+   .navbar-fixed-top .navbar-collapse {
+    max-height: none !important;}
