@@ -16,6 +16,10 @@ margin-top: 20px;
 
 }
 
+.resywidget{
+  float: left;
+}
+
 .button {
 border: 2px solid #F2615E;
 background-color: #fff;
