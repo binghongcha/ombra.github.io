@@ -368,7 +368,7 @@ color: #d95754;
 }
 
 .event-section a{
-
+  cursor: pointer;
   color: #d95754;
   position: relative;
   text-decoration: none;
@@ -376,11 +376,14 @@ color: #d95754;
 
 
 .event-section a img{
-
+  cursor: pointer;
   position: inherit;
   text-decoration: none;
 }
 
+.event-section a img{
+  visibility: none;
+}
 
 .event-section a:before {
 content: "";
@@ -402,6 +405,12 @@ transition: all 0.3s ease-in-out 0s;
 transform: left;
 transform-origin: left;
 }
+
+.nounderline a:before{
+background-color: unset !important;
+  
+}
+
 
 .event-section a:hover:before {
 visibility: visible;
