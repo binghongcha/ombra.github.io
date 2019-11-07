@@ -52,6 +52,14 @@ of those sections to manage the look and feel of the site. */
     background: #fff;
 }
 
+.event-section {
+    margin-top: -5px;
+    padding-top: 10%;
+    text-align: center;
+    background: #F7EFEF;
+    padding-bottom: 15r%;
+}
+
 
 
 
@@ -66,3 +74,5 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #fff;
 }
+
+
