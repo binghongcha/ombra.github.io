@@ -373,6 +373,15 @@ color: #d95754;
   position: relative;
   text-decoration: none;
 }
+
+
+.event-section a img{
+
+  position: inherit;
+  text-decoration: none;
+}
+
+
 .event-section a:before {
 content: "";
 position: absolute;
