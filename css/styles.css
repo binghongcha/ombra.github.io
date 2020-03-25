@@ -132,6 +132,51 @@ font-size: 14px;
 font-family: 'Work Sans';
 }
 
+.aboutlink  a {
+  color: #F2615E;
+   position: relative;
+   text-decoration: none;
+}
+.aboutlink a:before {
+content: "";
+position: absolute;
+width: 100%;
+height: 10px;
+bottom: 0;
+left: 0;
+background-color: rgba(255, 255, 255, 0.2);
+visibility: hidden;
+-webkit-transform: scaleX(0);
+transform: scaleX(0);
+-webkit-transition: all 0.3s ease-in-out 0s;
+transition: all 0.3s ease-in-out 0s;
+-ms-transform: left; /* IE 9 */
+-ms-transform-origin: left; /* IE 9 */
+-webkit-transform: left; /* Chrome, Safari, Opera */
+-webkit-transform-origin: left; /* Chrome, Safari, Opera */
+transform: left;
+transform-origin: left;
+}
+
+.aboutlink a:hover:before {
+visibility: visible;
+-webkit-transform: scaleX(1);
+transform: scaleX(1);
+}
+
+.aboutlink  a:visited {
+  color: #F2615E;
+}
+
+.aboutlink   a:hover {
+  color: #F2615E;
+}
+.aboutlink   a:active {
+  color: #F2615E;
+  opacity: 0.6;
+}
+
+
 .menulink  a {
       color: white;
        position: relative;
