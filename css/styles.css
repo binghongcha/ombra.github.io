@@ -16,6 +16,19 @@ margin-top: 20px;
 
 }
 
+#shopbutton {
+
+
+background:#ff462d;
+color: white ;
+border-radius: 5px !important;
+padding: 8px;
+margin-top: 6px;
+    margin-left: 16px;
+    font-weight: 600;
+
+}
+
 .posters{
 
 /*max-width: 200px;
@@ -368,8 +381,10 @@ z-index: -1;
 background-image: url("https://ombrabar.restaurant/resources/backprova.png");
 background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+/*    background-position: center;*/
 background-color: #000;
+top: 0;
+right: 0;
 padding-bottom: 800px;
 }
 
@@ -563,6 +578,17 @@ padding-right: 0px;
 @media only screen and (max-width : 767px) {
 
 
+  #shopbutton {
+
+
+
+    padding: 6px;
+    margin-top: 4px;
+        margin-left: 8px;
+        margin-right: 16px;
+    
+    }
+
   .event-section {
 
     padding-top: 15%;
@@ -755,7 +781,7 @@ display: none;
      }
 
 .nav {
-    width: 178px;
+    width: 188px;
     float: right;
 
 
