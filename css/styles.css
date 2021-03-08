@@ -391,9 +391,13 @@ padding-right: 0px;
 .prova {
 
 background-image: url("https://ombrabar.restaurant/resources/nuovoback3.png");
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
+
 
 background-color: #000;
 top: -20px;
