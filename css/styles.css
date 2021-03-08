@@ -731,7 +731,7 @@ padding-right: 0px;
   background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center top;
-      background-size: cover;
+      background-size: 170%;
 }
   .navbar-brand>img {
     margin-left: 40px;
