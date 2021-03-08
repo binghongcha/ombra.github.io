@@ -396,7 +396,6 @@ background-image: url("https://ombrabar.restaurant/resources/nuovoback3.png");
 -o-background-size: cover;
 background-size: cover;
 background-repeat: no-repeat;
-background-attachment: fixed;
 
 
 background-color: #000;
@@ -731,9 +730,7 @@ padding-right: 0px;
 }
   .prova {
   background-image: url("https://ombrabar.restaurant/resources/nuovoback3.png");
-  /*https://ombrabar.restaurant/resources/backprova2.png*/
   background-repeat: no-repeat;
-      background-attachment: fixed;
       background-position: center top;
       background-size: 280%;
 }
