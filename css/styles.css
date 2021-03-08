@@ -389,16 +389,16 @@ padding-right: 0px;
 }
 
 .prova {
-position: fixed;
-z-index: -1;
-background-image: url("https://ombrabar.restaurant/resources/backprova.png");
+
+background-image: url("https://ombrabar.restaurant/resources/nuovoback3.png");
+background-size: cover;
 background-repeat: no-repeat;
-    background-attachment: fixed;
-/*    background-position: center;*/
+background-attachment: fixed;
+
 background-color: #000;
-top: 0;
+top: -20px;
 right: 0;
-padding-bottom: 800px;
+padding-bottom: 200px;
 }
 
 .intro-section{
@@ -572,6 +572,11 @@ padding-right: 0px;
 
 }
 
+.sottotitolo a {
+
+   text-decoration: underline;
+   color: #fff;
+}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 1200px) {
@@ -721,7 +726,8 @@ padding-right: 0px;
       height: 90%;
 }
   .prova {
-  background-image: url("https://ombrabar.restaurant/resources/backprova2.png");
+  background-image: url("https://ombrabar.restaurant/resources/nuovoback3.png");
+  /*https://ombrabar.restaurant/resources/backprova2.png*/
   background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center top;
