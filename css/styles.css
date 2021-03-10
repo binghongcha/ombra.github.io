@@ -390,8 +390,7 @@ padding-right: 0px;
 
 .prova {
 
-background-image: url("/Users/giuliofagiolini/Downloads/Pastaback.png");
-/*https://ombrabar.restaurant/resources/nuovoback3.png*/
+background-image: url("https://ombrabar.restaurant/resources/PastaBack.png");
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -730,8 +729,8 @@ padding-right: 0px;
       height: 90%;
 }
   .prova {
-  background-image: url("/Users/giuliofagiolini/Downloads/Pastaback.png");
-  /*https://ombrabar.restaurant/resources/nuovoback3.png*/
+  background-image: url("https://ombrabar.restaurant/resources/PastaBack.png");
+
   background-repeat: no-repeat;
       background-position: center top;
       padding-bottom: 130px;
